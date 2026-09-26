@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>DICE!</title>
+	</head>
+	<body>
+		<h1>Dice Register</h1>
+		<div>
+			<h3>1. Nickname (D95)</h3>
+			<p id="nickname">_</p>
+			<button id="roll-nickname">Roll D95</button>
+		</div>
+		<div>
+			<h3>2. Email (D95)</h3>
+			<p id="email">_</p>
+			<button id="roll-email">Roll D95</button>
+		</div>
+		<div>
+			<h3>3. Age (D120)</h3>
+			<p id="age">_</p>
+			<button id="roll-age">Roll D120</button>
+		</div>
+		<div>
+			<h3>4. Phone (D10 SUPER LARGE)</h3>
+			<p id="phone">_</p>
+			<button id="roll-phone">Roll D10</button>
+		</div>
+		<div>
+			<h3>5. Captcha (3x D6 triple to verify)</h3>
+			<p id="captcha">not verified</p>
+			<button id="roll-captcha">Roll 3 Dices</button>
+		</div>
+		<div>
+			<h3>6. DELETE (Global D6)</h3>
+			<p>Click a field to target it, then:</p>
+			<button id="roll-delete">Roll Delete</button>
+			<p id="delete-target">Target: nickname</p>
+		</div>
+		<br>
+		<button id="register">REGISTER</button>
+		<script src="script.js"></script>
+	</body>
+</html>
